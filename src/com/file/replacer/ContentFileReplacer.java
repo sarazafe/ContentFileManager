@@ -22,6 +22,24 @@ public class ContentFileReplacer
 
 	}
 
+	void replaceFile(){
+
+	}
+
+	/**
+	 * It adds to content all data of file in pathFileWithNewData
+	 * @param pathFileWithNewData the path of the file with data to add
+	 * @param content content to add more information on it
+	 * @return the complet content
+	 */
+	String addNewContent(String pathFileWithNewData, String content){
+		if(pathFileWithNewData == null || content == null){
+			return "";
+		}
+
+		return "";
+	}
+
 
 
 	/**
