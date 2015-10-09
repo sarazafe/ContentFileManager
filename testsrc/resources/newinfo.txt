@@ -1,0 +1,2 @@
+cronjob.timertask.loadonstartup= false
+lang.packs=de,en,es,es_CO,ca,fr,it,ja,ko,pt,ru,zh,zh_TW
