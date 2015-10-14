@@ -1,5 +1,5 @@
 # ContentFileManager
-It replaces in a file some contents; and, if it is specified, it can add new lines on it
+ContentFileManager is a program that allows you to replace texts and to add new contents of other file; all these actions will be done on the original file.
 
 # How to use
 
