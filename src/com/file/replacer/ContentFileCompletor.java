@@ -57,12 +57,12 @@ public class ContentFileCompletor {
 	 *            <ul>
 	 *            <li>args[0]: path of file location</li>
 	 *            <li>args[1]: texts to replace with new values</li>
-	 *            <li>args[2]: file with some new information to add</li>
+	 *            <li>args[2]: path of file with some new information to add</li>
 	 *            </ul>
 	 */
 	public static void main(String[] args) {
-		// If args's lenth is 3 or less, replace text and add new lines
-		if (args.length <= 3) {
+		// If args's length is 2 or more, replace text and add new lines
+		if (args.length >= 2) {
 			try {
 
 				System.out.println("STARTING TO REPLACE FILE " + args[0]);
@@ -71,8 +71,8 @@ public class ContentFileCompletor {
 
 				List<String> textsToReplace = new ArrayList<String>();
 				String[] texts = args[1].split(",");
-				for (int i = 0; i < texts.length; i++) {
-					textsToReplace.add(texts[i]);
+				for (String text : texts) {
+					textsToReplace.add(text);
 				}
 
 				if (args.length == 2) {
