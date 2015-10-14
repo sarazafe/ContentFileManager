@@ -1,0 +1,11 @@
+
+
+*.orig
+
+.metadata/
+
+*.class
+
+.settings/
+
+/bin/

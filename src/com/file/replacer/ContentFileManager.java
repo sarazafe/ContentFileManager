@@ -10,11 +10,11 @@ import java.util.List;
  * @author <a href="mailto:sarazafe@gmail.com>Sara Zapico Fernandez (SZF)</a>
  *
  */
-public class ContentFileCompletor {
+public class ContentFileManager {
 
 	FileManager fileManager;
 
-	ContentFileCompletor() {
+	ContentFileManager() {
 		fileManager = new FileManager();
 	}
 
@@ -67,7 +67,7 @@ public class ContentFileCompletor {
 
 				System.out.println("STARTING TO REPLACE FILE " + args[0]);
 
-				ContentFileCompletor cFC = new ContentFileCompletor();
+				ContentFileManager cFC = new ContentFileManager();
 
 				List<String> textsToReplace = new ArrayList<String>();
 				String[] texts = args[1].split(",");
