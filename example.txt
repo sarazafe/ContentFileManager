@@ -1,0 +1,1 @@
+This is an example of content file manager. With this program you can change text and adding new contents of another file. New information will be changed on the origin file.
